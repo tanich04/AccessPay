@@ -1,0 +1,12 @@
+# Ignore node_modules in both client and server
+accesspay-client/node_modules/
+accesspay-server/node_modules/
+
+# Ignore environment variables
+accesspay-client/.env
+accesspay-server/.env
+
+# Ignore OS-specific or log files
+.DS_Store
+Thumbs.db
+npm-debug.log
